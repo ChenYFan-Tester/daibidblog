@@ -1,0 +1,126 @@
+- class_name: 大佬们👨‍🎓
+  class_desc: 有幸拜读文章
+  link_list:
+    - name: JerryC
+      link: https://immyw.com/
+      avatar: https://cdn.keepdai.cn//jerryc.webp
+      descr: 今日事,今日毕
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/apptd-np2uw.webp
+      descr: 快速、简单且强大的网誌框架
+    - name: 爱即是诗
+      link: https://www.aigisss.com/blog/
+      avatar: https://www.aigisss.com/blog/img/avatar.png
+      descr: 个人网站
+    - name: 青葱博客
+      link: https://ciraos.top/
+      avatar: https://cdn.jsdelivr.net/gh/ciraos/greatimgbed@1.001/avatar.jpg
+      descr: 一切皆付笑谈中
+    - name: Ln’s Blog
+      link: https://weilining.cf/
+      avatar: https://cdn.jsdelivr.net/gh/weilining/img@main/img/20201120235415.png
+      descr: 时不我待
+    - name: Heo
+      link: https://blog.zhheo.com/
+      avatar: https://blog.zhheo.com/img/avatar.png
+      descr: 爱折腾的设计师
+    - name: CC的部落格
+      link: https://blog.ccknbc.cc
+      avatar: https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/ccknbc.png
+      descr: CC康纳百川
+    - name: itsNekoDeng
+      link: https://nekodeng.gitee.io
+      avatar: https://nekodeng.gitee.io/medias/avatar.jpg
+      descr: 十万伏特皮卡丘，梦想是世界和平，想要发光发热
+    - name: 小康博客
+      link: https://www.antmoe.com/
+      avatar: https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/avatar.jpg
+      descr: 一个收藏回忆与分享技术的地方！
+    - name: 卓越科技的Blog
+      link: https://blog.imzykj.cn/
+      avatar: https://cdn.jsdelivr.net/gh/zykjofficial/zykjofficial.github.io@master/img/avatar.png
+      descr: Remarkable life,for science and technology.
+    - name: 小冰博客
+      link: https://zfe.one
+      avatar:  https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/54171314050537880.webp
+      descr: 做个有梦想的人！
+    - name: CYFの博客
+      link: https://blog.cyfan.top/
+      avatar:  https://blog.cyfan.top/pic/BLOGER.jpg
+      descr: 我皮吗？不，我就是喜欢写技术
+    - name: cungudafa
+      link: https://cungudafa.gitee.io/
+      avatar: https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg
+      descr: 一个学习记录者
+- class_name: 朋友们👬
+  class_desc: 那些年,那些人.
+  link_list:
+    - name: killuaの博客
+      link: https://aabbj.com
+      avatar: https://cdn.jsdelivr.net/gh/flurrychan/CDN/tx.jpg
+      descr: 一个小破站
+    - name: 学习与生活
+      link: https://blog.ql-isaac.cn/
+      avatar: https://image.ql-isaac.cn/站长头像.jpg
+      descr: It’s a beautiful day!
+    - name: 班班碎碎念
+      link: https://blog.dlzhang.com
+      avatar: https://sdn.geekzu.org/avatar/cc763511474fe24ffcc80257fb7cb970?size=512
+      descr: 无曰已是 无曰遂真
+    - name: 我的小窝
+      link: https://www.zhenghang.me
+      avatar: https://oss.zhenghang.me/webimages/logo.png
+      descr: 随想，游记，番剧感动
+    - name: EthanLoo
+      link: https://blog.ethanloo.top
+      avatar: https://cdn.ethanloo.top/img/avatar.png
+      descr: 好好学习，好好吃饭，好好睡觉
+    - name: 保温杯的小栈
+      link: https://1357.ga
+      avatar: https://cdn.jsdelivr.net/gh/fuckzuoye/fuckzuoye.github.io/img/avatar.jpg
+      descr: 等我写完作业了一定来更新博客！
+    - name: Heart-of-engine
+      link: https://www.heart-of-engine.top/
+      avatar: https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/_.jpg
+      descr: 专注于数学与编程的完美结合,分享生活,分享知识
+    - name: so4ms
+      link: https://so4ms.top/
+      avatar: https://www.izaiahsun.com/wp-content/uploads/2020/11/so4ms.jpeg
+      descr: so4ms的博客
+    - name: 北熙宝宝
+      link: https://blog.beixibaobao.com
+      avatar: https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@4caa9a5ba75dc1906124a82f173d6dbae3aa3873/2021/01/23/cf2314dea91da95a7895a77a52359663.png
+      descr: 北熙赤ちゃん
+    - name: EdNovas
+      link: https://ednovas.xyz/
+      avatar: https://cdn.jsdelivr.net/gh/wdm1732418365/CDN/New%20folder/QQ%E5%9B%BE%E7%89%8720210116113944.jpg
+      descr: EdNovas的小站
+    - name: CtrlCV博客
+      link: https://www.hack-er.cn/
+      avatar: https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/g.jpg
+      descr: 一顿CV猛如虎
+    - name: 枯白的匣子
+      link: https://kb.urbanemc.net/
+      avatar: https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/chenmu.webp
+      descr: KUBAI DESIGNS
+    - name: Web-Worker
+      link: https://web-worker.cn/
+      avatar: https://cdn.keepdai.cn/favicon.ico
+      descr: 不忘初心，继续向前！
+    - name: 辰旭博客
+      link: https://blog.poewin.com/
+      avatar: https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/auy63-cq82j.webp
+      descr: 凤鸣初阳，百鸟朝凰
+    - name: 兰亭苑
+      link: https://www.zhiever.top/
+      avatar: https://pic6.58cdn.com.cn/nowater/webim/big/n_v265ee5f7948f74ea6a0e334f0d34f1bfa.gif
+      descr: 仰观宇宙之大，俯察品类之盛，所以游目骋怀。
+    - name: 灰鸿の空间
+      link: https://space.greyh.cn/
+      avatar: https://gitee.com/huihongyhy/imgbed/raw/master/img/avatar.png
+      descr: 一名科技爱好者的空间
+    - name: Youth的时光录
+      link: https://imlql.cn/
+      avatar: https://cdn.jsdelivr.net/gh/youthlql/lql_img/blog/avatar.jpg
+      descr: 主要是Java技术栈的博客，比较偏原理，源码类型的博主

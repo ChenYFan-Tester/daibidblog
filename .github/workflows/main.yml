@@ -11,10 +11,10 @@ jobs:
         with:
           ref: main
 
-#      - name: Install Nodejs Lib
-#        uses: actions/setup-node@v1
-#        with:
-#          node-version: "12.x"
+      - name: Install Nodejs Lib
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
 
       - name: Install Hexo Lib
         run: |

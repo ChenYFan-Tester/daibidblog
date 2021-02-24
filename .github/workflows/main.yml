@@ -1,0 +1,50 @@
+name: deploy
+
+on: [push, repository_dispatch]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Branch
+        uses: actions/checkout@v2
+        with:
+          ref: main
+
+      - name: Install Nodejs Lib
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+
+      - name: Install Hexo Lib
+        run: |
+          export TZ='Asia/Shanghai'
+          npm install hexo-cli -g
+          npm install --save
+
+      - name: Cache to Hexo
+        uses: actions/cache@v1
+        id: cache
+        with:
+          path: node_modules
+          key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
+
+      - name: Install Other Lib
+        run: |
+          npm install --save
+          npm install highlight.js --save
+
+      - name: Generate and Compression
+        run: |
+          hexo clean
+          hexo bangumi -u
+          hexo g
+        
+      - name: Deploy
+        env:
+          DEK: ${{ secrets.DEK }}
+          DEKE: ${{ secrets.DEKE }}
+        run: |
+          git config --global user.name "Daibi-mua"
+          git config --global user.email "daibimua@gmail.com"
+          hexo deploy

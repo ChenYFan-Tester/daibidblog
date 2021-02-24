@@ -35,7 +35,8 @@
     "highlight.js": "^10.6.0",
     "live2d-widget-model-haru": "^1.0.5",
 	"bufferutil": "^4.0.3",
-	"utf-8-validate": "^5.0.4"
+	"utf-8-validate": "^5.0.4",
+	"hexo-theme-butterfly": "^3.6.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",

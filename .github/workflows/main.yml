@@ -19,8 +19,9 @@ jobs:
       - name: Install Hexo Lib
         run: |
           export TZ='Asia/Shanghai'
-          npm install hexo-cli -g
-          npm install --save
+          npm i cnpm -g
+          cnpm install hexo-cli -g
+          cnpm install --save
 
       - name: Cache to Hexo
         uses: actions/cache@v1
@@ -29,11 +30,6 @@ jobs:
           path: node_modules
           key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
 
-      - name: Install Other Lib
-        run: |
-          npm install --save
-          npm install highlight.js --save
-
       - name: Generate and Compression
         run: |
           hexo clean
@@ -41,10 +37,7 @@ jobs:
           hexo g
         
       - name: Deploy
-        env:
-          DEK: ${{ secrets.DEK }}
-          DEKE: ${{ secrets.DEKE }}
-        run: |
-          git config --global user.name "Daibi-mua"
-          git config --global user.email "daibimua@gmail.com"
-          hexo deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          publish_dir: ./public

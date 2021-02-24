@@ -11,22 +11,22 @@ jobs:
         with:
           ref: main
 
-      - name: Install Nodejs Lib
-        uses: actions/setup-node@v1
-        with:
-          node-version: "12.x"
+#      - name: Install Nodejs Lib
+#        uses: actions/setup-node@v1
+#        with:
+#          node-version: "12.x"
 
       - name: Install Hexo Lib
         run: |
           npm install hexo-cli -g
           npm install 
 
-      - name: Cache to Hexo
-        uses: actions/cache@v1
-        id: cache
-        with:
-          path: node_modules
-          key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
+#      - name: Cache to Hexo
+#        uses: actions/cache@v1
+#        id: cache
+#        with:
+#          path: node_modules
+#          key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
 
       - name: Generate and Compression
         run: |

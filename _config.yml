@@ -111,18 +111,7 @@ deploy:
     branch: master
   - type: baidu_url_submitter
 
-bangumi:
-  enable: true
-  path: bangumi/index.html
-  vmid: 372256289
-  title: '追番列表'
-  quote: '生命不息，追番不止！'
-  show: 1
-  loading: https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/loading.gif
-  metaColor:
-  color:
-  webp:
-  progress:
+
 live2d:
   enable: true
 # 自动生成sitemap
